@@ -19,9 +19,9 @@ python libraries:
 * *mk_people_list_DM.ipynb* calls *Accountstory API*
  * needs Accountstory API key
  * need a company list that is freely available on https://www.peopledatalabs.com/company-dataset (1.5 GB)
-  * *company_list.sql* to filter the company list dataset
-   *   currently: only CA companies and only tech companies
-   * makes *company_list_CA.json*
+    - *company_list.sql* to filter the company list dataset
+       - currently: only CA companies and only tech companies
+       - makes *company_list_CA.json*
   * makes file: *people_list_DM.json*
 
 * *DM_enrichment.ipynb* calls *PDL enrichment API*

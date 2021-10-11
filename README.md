@@ -1,9 +1,11 @@
 # Accountstory
- ML exploration for Accountstory
+ML exploration for Accountstory
+Slide deck of progress (Oct 2021) at:
+https://docs.google.com/presentation/d/1IuvJcF0UZ-clm3Qd-oVQbUHQqjDcfkVEzk5jqqrFW04
 
- ## Objective
+## Objective
 
- The purpose of this analysis is to assess the feasibility of training an ML model to predict the likelihood of a linkedin profile to be a decision maker (DM).
+The purpose of this analysis is to assess the feasibility of training an ML model topredict the likelihood of a linkedin profile to be a decision maker (DM).
 
 We define a decision maker by someone who takes part in the sales process and has a certain degree of influence on the sales process decision. We do have several tiers of decision makers that we distinguish in the extension, i.e. executive sponsors, managers, etc. For the purpose of this analysis we wont be differentiating those tiers and we will be assuming uniformity across all of those tiers. Down the line we will be considering training different models or different classes for each of the following tiers to improve prediction.
 

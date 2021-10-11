@@ -1,6 +1,7 @@
 # Accountstory
 ML exploration for Accountstory
-Slide deck of progress (Oct 2021) at:
+
+Slide deck (Oct 2021):
 https://docs.google.com/presentation/d/1IuvJcF0UZ-clm3Qd-oVQbUHQqjDcfkVEzk5jqqrFW04
 
 ## Objective

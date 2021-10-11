@@ -17,24 +17,24 @@ python libraries:
 ### Generate Decision Maker Dataset
 
 * *mk_people_list_DM.ipynb* calls *Accountstory API*
- * needs Accountstory API key
- * need a company list that is freely available on https://www.peopledatalabs.com/company-dataset (1.5 GB)
+  - needs Accountstory API key
+  - need a company list that is freely available on https://www.peopledatalabs.com/company-dataset (1.5 GB)
     - *company_list.sql* to filter the company list dataset
-       - currently: only CA companies and only tech companies
-       - makes *company_list_CA.json*
-  * makes file: *people_list_DM.json*
+      - currently: only CA companies and only tech companies
+      - makes *company_list_CA.json*
+  - makes file: *people_list_DM.json*
 
 * *DM_enrichment.ipynb* calls *PDL enrichment API*
- * needs peopledatalabs API key
- * needs *people_list_DM.json*
- * makes file: *people_list_DM_enriched.json*
+  - needs peopledatalabs API key
+  - needs *people_list_DM.json*
+  - makes file: *people_list_DM_enriched.json*
 
 ### Generate non-Decision Maker Dataset
 
 * *mk_people_list_DM.ipynb* calls *PDL people API*
- * needs peopledatalabs API key
- * needs *company_list_CA.json*
- * makes file: *people_list_nDM.json*
+  - needs peopledatalabs API key
+  - needs *company_list_CA.json*
+  - makes file: *people_list_nDM.json*
 
 ### Combine DM and non-DM datasets
 

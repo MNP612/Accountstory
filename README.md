@@ -12,7 +12,7 @@ We define a decision maker by someone who takes part in the sales process and ha
 
 ## How To Use
 
-python libraries:
+needed python libraries:
 * pandas
 * scikit-learn
 * tensorflow
@@ -34,7 +34,7 @@ python libraries:
 
 ### Generate non-Decision Maker Dataset
 
-* *mk_people_list_DM.ipynb* calls *PDL people API*
+* *mk_people_list_nDM.ipynb* calls *PDL people API*
   - needs peopledatalabs API key
   - needs *company_list_CA.json*
   - makes file: *people_list_nDM.json*
@@ -54,16 +54,20 @@ python libraries:
 ### 1. Decition tree
 
 * *decision_tree.ipynb*
+* needs *TRAINING_dataset.json*
 * makes file: *feat_importance.csv*
 
 ### 2. Random forest
 
 * *random_forest.ipynb*
+* needs *TRAINING_dataset.json*
 
 ### 3. Other models
 
 * *classical_models.ipynb*
+* needs *TRAINING_dataset.json*
 
 ### 4. Deep learning
 
 * *ANN.ipynb*
+* needs *TRAINING_dataset.json*
